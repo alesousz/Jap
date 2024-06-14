@@ -9,6 +9,7 @@
 body {
   background-color: black;
   color: white;
+  font-family: "Kanit", sans-serif;
 }
 
 header {
@@ -41,7 +42,14 @@ main {
   justify-content: space-around;
   padding-top: 120px;
 }
-
+.texto1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30%;
+  padding-top: 10%;
+}
 .texto {
   display: flex;
   flex-direction: column;
@@ -52,7 +60,7 @@ main {
 .texto img {
   position: absolute;
   top: 50px;
-  left: 350px;
+  left: 750px;
   opacity: 0.3;
 }
 
